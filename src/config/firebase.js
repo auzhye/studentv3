@@ -4,7 +4,6 @@ import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signO
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-
   };
 
 // Initialize Firebase
