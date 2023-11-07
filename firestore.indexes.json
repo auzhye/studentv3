@@ -1,0 +1,33 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "skola",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "skolotajs_uid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "when",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "skola",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "skolotajs_uid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "when",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
